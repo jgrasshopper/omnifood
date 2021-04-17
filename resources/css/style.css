@@ -388,8 +388,6 @@ section {
   border: 2px solid #e67e22;
   border-radius: 50%;
   color: #e67e22;
-  /* We want to display it as an inline block that way, we can ensure that the element doesn't force a line break and that way, the number can be side by side with the text */
-  display: inline-block;
   height: 55px;
   width: 55px;
   text-align: center;
@@ -397,10 +395,8 @@ section {
   font-size: 150%;
   margin-right: 25px;
   float: left;
-}
-
-.works-step div p {
-  float: left;
+  /* We want to display it as an inline block that way, we can ensure that the element doesn't force a line break and that way, the number can be side by side with the text */
+  display: block;
 }
 
 .btn-app:link,

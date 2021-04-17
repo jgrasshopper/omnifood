@@ -395,8 +395,10 @@ section {
   font-size: 150%;
   margin-right: 25px;
   float: left;
-  /* We want to display it as an inline block that way, we can ensure that the element doesn't force a line break and that way, the number can be side by side with the text */
-  display: block;
+}
+
+.works-step div p {
+  float: left;
 }
 
 .btn-app:link,

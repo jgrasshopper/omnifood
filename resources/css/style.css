@@ -399,6 +399,10 @@ section {
   float: left;
 }
 
+.works-step div p {
+  float: left;
+}
+
 .btn-app:link,
 .btn-app:visited {
   border: 0;
